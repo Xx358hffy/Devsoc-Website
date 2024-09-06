@@ -1,0 +1,99 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Draggable elements styling */
+.draggable {
+  position: absolute;
+  cursor: move;
+  padding: 10px;
+  background-color: whitesmoke;
+  font-family: 'Handjet', serif;
+  font-size: 20px;
+  text-align: center;
+  width:100%;
+  user-select: none; 
+  display: flex;
+  justify-content: center; /* Center horizontally */
+}
+
+/* Specific element positions for vertical alignment */
+#intro {
+  width:40%;
+  color: whitesmoke;
+  background-color: black;
+  padding:20px;
+  border-radius: 10px;
+}
+
+#title{
+  font-size: 50px;
+}
+
+#intro2 {
+  top: 35%;
+  color: black;
+}
+
+#image1 {
+  position:absolute;
+  right:5%;
+}
+
+#image2 {
+  position:absolute;
+  right:10%;
+  top:45%;
+}
+
+#nunuGif {
+  position: absolute;
+}
+
+#info {
+  font-family: 'Handjet', serif;
+  font-size: 20px;
+  position: absolute;
+  top: 45%;
+  color: whitesmoke;
+}
+
+/* Yin-Yang button */
+#restoreButton {
+  position: absolute;
+  bottom: 10%;
+  left: 47%;
+}
+
+#Hobbies {
+  left:10%;
+  top: 70%;
+  width:80%;
+  border-radius: 10px;
+  color: black;
+}
+
+.disclaimer {
+  font-family: 'Handjet', serif;
+  position: absolute;
+  bottom: 10px;
+  width: 80%;
+  text-align: center;
+  left:10%;
+  color: whitesmoke;
+}
+
